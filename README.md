@@ -7,11 +7,13 @@ The project is **archived / paused** — core structure and early-stage analysis
 
 ---
 
+<br>
+
 ## 🎯 Core Question
 
 **Should French Champagne houses invest in long-term sparkling wine operations in Hampshire, UK?**
 
----
+<br>
 
 ## 🧭 Research Strategy
 
@@ -27,7 +29,7 @@ The project frames the investigation as a sequence of data-driven experiments:
 Each analytical step follows a standard structure:
 
 
----
+<br>
 
 ## 📦 Data Sources (Intended / Referenced)
 
@@ -40,11 +42,41 @@ Each analytical step follows a standard structure:
 
 *Note:* Not all listed datasets are fully integrated yet — some appear in exploratory code only.
 
----
+<br>
 
 ## 🗂 Repository Structure
 
-N/A
+```
+.hampshire-wine-investment/
+    ├── data /
+    │   ├── ERA/
+    │   │   └── Experiments/
+    │   │   │   ├── ClimateIndicatorsTempGDDPrec.grib
+    │   │   │   ├── ERA5data.grib
+    │   │   │   ├── ERA5data.nc
+    │   │   │   ├── ERAtest_subarea_1deg1deg.nc
+    │   │   │   ├── ERA5data_new.zip
+    │   │   │   └── ERA5data_new/
+    │   │   │   │   ├── 01_mean_temperature-reanalysis-monthly-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── 02_growing_degree_days-reanalysis-monthly-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── l1_daily_maximum_temperature-reanalysis-monthly-max-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── l1_daily_maximum_temperature-reanalysis-monthly-mean-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── l1_daily_maximum_temperature-reanalysis-monthly-min-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── l2_daily_minimum_temperature-reanalysis-monthly-max-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   ├── l2_daily_minimum_temperature-reanalysis-monthly-mean-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │   │   │   └── l2_daily_minimum_temperature-reanalysis-monthly-min-grid-1940-2023-v1.0.area-subset.51.5.-5.5.50.0.1.5.nc
+    │   │
+    │   └── UKCP
+    │
+    ├── hampshire_wine_investment.ipynb
+    │
+    └── README.md       # you are here
+
+
+```
+
+
+<br>
 
 ## 📌 Status
 
@@ -62,16 +94,13 @@ Future extensions may include:
 - CMIP6 ensemble phenology forecasts
 - Yield & quality index modelling
 
----
+
+<br>
 
 ## 🤝 Acknowledgements
 
 This research exercise was initiated as part of graduate study at **Imperial College London**.  
 No commercial relationship with Taittinger or any wine producer is implied.
 
----
 
-## License
 
-MIT (for code).  
-Literature review and report text © The author.
